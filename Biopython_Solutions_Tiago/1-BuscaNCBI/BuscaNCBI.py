@@ -20,9 +20,6 @@ for row in record["eGQueryResult"]:
         print('Acessos:')
         print(gb_list)
 
-        print("Baixar sequencias do Genbank (ate 200 acessos)")
-        print('Resumir nome das sequencias a >Genero_especie_GenbankNumber')
-        print('Adaptado por Tiago Andrade Borges Santos')
 
 
         f=open('sequence.gb','w')
